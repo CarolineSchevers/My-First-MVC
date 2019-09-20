@@ -37,7 +37,8 @@ class Project extends Controller{
                          - &nbsp
                         <a href=". $example['code'] . "> Code</a>
                     </div>
-                    <p>" . $example['description'] .  "<br>
+                    <p class='italic'>" . $example['description'] .  "</p>
+                    <p>
                      Programming languages: " . $example['language'] . "<br>
                      Made on: " . $example['made'] . "<br>
                      </p>
@@ -48,8 +49,8 @@ class Project extends Controller{
         if(isset($_GET['prebtn'])) {
             $id = $id - 1;
             header("Location: http://mvc.local/first_mvc/public/project/example/$id");
-            if($id = 1) {
-                header("Location: http://mvc.local/first_mvc/public/project/example/$id");
+            if($id < 1) {
+                header("Location: http://mvc.local/first_mvc/public/project");
             }
         }
         if(isset($_GET['listbtn'])) {

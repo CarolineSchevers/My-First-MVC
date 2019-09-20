@@ -1,11 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
 ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -14,7 +21,7 @@ ul {
   font-size: 20px;
 }
 
-li a {
+ul li a {
   display: block;
   color: white;
   text-align: center;
@@ -22,14 +29,9 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+ul li:hover {
   color: white;
   background-color: #48ad4c;
-}
-
-* {
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -37,4 +39,4 @@ body {
   background-size: 100vw;
   background-repeat: no-repeat;
 }
-/*# sourceMappingURL=home.css.map */
+/*# sourceMappingURL=home-index.css.map */

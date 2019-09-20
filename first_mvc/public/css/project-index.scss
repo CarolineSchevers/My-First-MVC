@@ -1,0 +1,35 @@
+@import 'general';
+
+body {
+  background-image: url('../images/archief.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul.listProject {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin: 20px 0px 0px 80px;
+  padding-top: 53px;
+  width: 500px;
+
+  a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    margin-top: 13px;
+
+    &:hover {
+      color: #203d9e;
+    }
+  }
+}
+
+.listProjectBox {
+  background-image: url('../images/paper.png');
+  margin-left: 100px;
+  height: 80vh;
+  width: 500px;
+  box-shadow: 0px 0px 30px 4px rgb(185, 184, 184);
+}

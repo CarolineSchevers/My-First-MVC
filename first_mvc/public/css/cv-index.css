@@ -37,4 +37,9 @@ ul li:hover {
   color: white;
   background-color: #48ad4c;
 }
-/*# sourceMappingURL=general.css.map */
+
+iframe {
+  width: 100%;
+  height: 100vh;
+}
+/*# sourceMappingURL=cv-index.css.map */
