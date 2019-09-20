@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+body {
+    background-image: url('../images/wood.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #977676;
+    font-size: 20px;
+  }
+
+  button {
+    display: block;
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: #48ad4c;
+    width: 150px;
+  }
+
+  iframe {
+    width: 120%;
+    height: 550px;
+    border: 1px solid black;
+    transform: scale(0.75);
+    overflow: hidden;
+    margin: -50px;
+    background-color: white;
+  }
+
+  h1 {
+      text-align: center;
+      font-style: italic;
+      color:rgb(54, 54, 54);
+  }
+
+  .grid {
+      display: grid;
+      grid-template-areas: ". left right";
+      grid-template-columns: 1fr 10fr 7fr;
+  }
+
+  .grid1 {
+      grid-area: left;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .grid2 {
+    grid-area: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 2.5;
+    font-size: 20px;
+}
+
+.linkFlex {
+    display: flex;
+    justify-content: space-evenly
+}

@@ -1,0 +1,67 @@
+body {
+  background-image: url('../images/archief.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #977676;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: white;
+  background-color: #48ad4c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul.listProject {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin: 20px 0px 0px 80px;
+  padding-top: 52px;
+  width: 500px;
+}
+
+ul.listProject a {
+  color:black;
+  text-decoration: none;
+  font-style: italic;
+  margin-top: 15px;
+}
+
+ul.listProject a:hover {
+  color: #203d9e; 
+}
+
+.listProjectBox {
+  background-image: url('../images/paper.png');
+  margin-left: 100px;
+  height: 80vh;
+  width: 500px;
+  box-shadow: 0px 0px 30px 4px rgb(185, 184, 184);
+}
+
